@@ -35,18 +35,18 @@ models:
   snowplow_web:
     base:
       manifest:
-        +schema: my_manifest_schema
+        +schema: TrySP_manifest
       scratch:
-        +schema: my_scratch_schema
+        +schema: TrySP_scratch
     page_views:
-      +schema: my_derived_schema
+      +schema: TrySP_derived
       scratch:
-        +schema: my_scratch_schema
+        +schema: TrySP_scratch
     sessions:
-      +schema: my_derived_schema
+      +schema: TrySP_derived
       scratch:
-        +schema: my_scratch_schema
+        +schema: TrySP_scratch
     users:
-      +schema: my_derived_schema
+      +schema: TrySP_derived
       scratch:
-        +schema: my_scratch_schema
+        +schema: TrySP_scratch
