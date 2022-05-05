@@ -1,5 +1,0 @@
-integration_tests:
-  target: postgres
-  outputs:
-    postgres:
-      schema: snowplow_integration_tests_postgres
